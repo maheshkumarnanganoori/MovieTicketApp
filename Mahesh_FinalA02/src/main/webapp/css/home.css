@@ -1,0 +1,53 @@
+@charset "ISO-8859-1";
+.nav-link.active {
+    font-weight: bold;
+     text-decoration: underline;
+}
+body {
+            text-align: center;
+            background-color: #f2f2f2;
+        }
+
+        #movieForm {
+    width: 60%;
+    max-width: 400px; /* Set a maximum width for the form */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="file"],
+select,
+input[type="radio"],
+label {
+    margin: 5px 0;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.navbar.navbar-expand-lg.bg-body-tertiary {
+    background-color: black !important;
+    height:50px;
+  }
+.navbar-nav .nav-link{
+    color: white !important;
+}
+.nav-link.active {
+    font-weight: bold;
+     text-decoration: underline;
+}
